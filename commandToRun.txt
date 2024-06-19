@@ -1,0 +1,10 @@
+kubectl apply -f spring-boot-deployment.yaml
+kubectl apply -f spring-boot-service.yaml
+kubectl apply -f mysql-deployment.yaml
+kubectl apply -f mysql-service.yaml
+
+
+
+kubectl get deployments
+kubectl get services
+kubectl get pods
